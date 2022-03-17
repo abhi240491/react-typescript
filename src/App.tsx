@@ -6,7 +6,7 @@ import Signup from './components/Signup';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  //const [isAuthenticated, setIsAuthenticated] = useState(true);
   return (
     <BrowserRouter>
       <Routes>
